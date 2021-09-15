@@ -110,7 +110,7 @@ export const state = () => ({
     },
     {
       title: 'Citation',
-      date: '1 septembre 2021',
+      date: '15 septembre 2021',
       image: '/images/actualites/citation-09-21.jpg',
       lightImage: true,
       id: 'actualite-7',
