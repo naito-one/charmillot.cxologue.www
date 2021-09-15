@@ -108,7 +108,6 @@ export const state = () => ({
       lightImage: false,
       id: 'actualite-6',
     },
-    /*
     {
       title: 'Citation',
       date: '1 septembre 2021',
@@ -116,7 +115,6 @@ export const state = () => ({
       lightImage: true,
       id: 'actualite-7',
     },
-    */
   ],
 })
 

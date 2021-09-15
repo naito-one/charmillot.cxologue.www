@@ -54,7 +54,7 @@
         class="absolute w-full h-full transparent-borders z-10 pointer-events-none"
       ></div>
       <div ref="scroller" class="slider w-full flex overflow-x-auto">
-        <!--<actualite-citation-09-21></actualite-citation-09-21>-->
+        <actualite-citation-09-21></actualite-citation-09-21>
         <actualite-citation-07-21></actualite-citation-07-21>
         <actualite-citation-03-21></actualite-citation-03-21>
         <actualite-citation-01-21></actualite-citation-01-21>
@@ -74,7 +74,7 @@ import ActualiteAutrePrestation from '../actualites/actualite-autre-prestation'
 import ActualiteCitation0121 from '../actualites/actualite-citation-01-21'
 import ActualiteCitation0321 from '../actualites/actualite-citation-03-21'
 import ActualiteCitation0721 from '../actualites/actualite-citation-07-21'
-// import ActualiteCitation0921 from '../actualites/actualite-citation-09-21'
+import ActualiteCitation0921 from '../actualites/actualite-citation-09-21'
 export default {
   name: 'SectionActualites',
   components: {
@@ -85,7 +85,7 @@ export default {
     ActualiteCitation0121,
     ActualiteCitation0321,
     ActualiteCitation0721,
-    // ActualiteCitation0921,
+    ActualiteCitation0921,
   },
   data() {
     return {
