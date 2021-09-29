@@ -25,19 +25,6 @@
       @submit="submit"
     >
       <input
-        type="hidden"
-        name="subject"
-        value="Formulaire de contact C'XOLOGUE"
-      />
-      <input type="hidden" name="redirect" :value="returnAddress" />
-
-      <input
-        type="hidden"
-        name="sort"
-        value="order:lastname,firstname,mail,phone,message"
-      />
-
-      <input
         class="py-2 px-4 rounded-lg shadow-sm mb-2"
         aria-label="Nom"
         type="text"
@@ -168,8 +155,8 @@ export default {
 
       event.preventDefault()
 
-      const human = event.target[8].checked
-      const robot = event.target[9].checked
+      const human = event.target[5].checked
+      const robot = event.target[6].checked
 
       if (robot || !human) {
         window.location = this.robotReturnAddress
@@ -178,7 +165,8 @@ export default {
 
       this.validated = true
 
-      this.$refs.form.action = 'https://contact.cxologue.ch/cgi-bin/FormMail.pl'
+      this.$refs.form.action =
+        'https://contact.cxologue.ch/forms/cxologue_contact_form'
       this.$refs.form.submit()
 
       return false
@@ -187,13 +175,6 @@ export default {
   computed: {
     section() {
       return this.$store.getters.sections.row2[2]
-    },
-    returnAddress() {
-      return `${
-        typeof location !== 'undefined'
-          ? location.origin
-          : 'https://cxologue.ch'
-      }/?submitted#prendre-contact`
     },
     robotReturnAddress() {
       return `${
