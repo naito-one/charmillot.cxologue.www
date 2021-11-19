@@ -65,57 +65,68 @@ export const state = () => ({
     ],
   },
 
-  actualites: [
-    {
-      title: 'Lancement du site web',
-      date: '6 octobre 2020',
-      image: '/images/actualites/lancement-du-site-web.jpg',
-      lightImage: false,
-      id: 'actualite-1',
-    },
-    {
-      title: 'Citation',
-      date: '24 octobre 2020',
-      image: '/images/actualites/citation.jpg',
-      lightImage: false,
-      id: 'actualite-2',
-    },
-    {
-      title: 'Autre prestation',
-      date: '24 octobre 2020',
-      image: '/images/actualites/autre-prestation.jpg',
-      lightImage: false,
-      id: 'actualite-3',
-    },
-    {
-      title: 'Citation',
-      date: '1 janvier 2021',
-      image: '/images/actualites/citation-01-21.jpg',
-      lightImage: false,
-      id: 'actualite-4',
-    },
-    {
-      title: 'Citation',
-      date: '1 mars 2021',
-      image: '/images/actualites/citation-03-21.jpg',
-      lightImage: true,
-      id: 'actualite-5',
-    },
-    {
-      title: 'Citation',
-      date: '4 juillet 2021',
-      image: '/images/actualites/citation-07-21.jpg',
-      lightImage: false,
-      id: 'actualite-6',
-    },
-    {
-      title: 'Citation',
-      date: '15 septembre 2021',
-      image: '/images/actualites/citation-09-21.jpg',
-      lightImage: true,
-      id: 'actualite-7',
-    },
-  ],
+  actualites: new Map(
+    Object.entries({
+      /*
+      'lancement-du-site-web': {
+        title: 'Lancement du site web',
+        date: '6 octobre 2020',
+        image: '/images/actualites/lancement-du-site-web.jpg',
+        lightImage: false,
+        id: 'actualite-1',
+      },
+      'citation': {
+        title: 'Citation',
+        date: '24 octobre 2020',
+        image: '/images/actualites/citation.jpg',
+        lightImage: false,
+        id: 'actualite-2',
+      },
+      */
+      'autre-prestation': {
+        title: 'Autre prestation',
+        date: '24 octobre 2020',
+        image: '/images/actualites/autre-prestation.jpg',
+        lightImage: false,
+        id: 'actualite-3',
+      },
+      'citation-01-21': {
+        title: 'Citation',
+        date: '1 janvier 2021',
+        image: '/images/actualites/citation-01-21.jpg',
+        lightImage: false,
+        id: 'actualite-4',
+      },
+      'citation-03-21': {
+        title: 'Citation',
+        date: '1 mars 2021',
+        image: '/images/actualites/citation-03-21.jpg',
+        lightImage: true,
+        id: 'actualite-5',
+      },
+      'citation-07-21': {
+        title: 'Citation',
+        date: '4 juillet 2021',
+        image: '/images/actualites/citation-07-21.jpg',
+        lightImage: false,
+        id: 'actualite-6',
+      },
+      'citation-09-21': {
+        title: 'Citation',
+        date: '15 septembre 2021',
+        image: '/images/actualites/citation-09-21.jpg',
+        lightImage: true,
+        id: 'actualite-7',
+      },
+      'citation-11-21': {
+        title: 'Citation',
+        date: '20 novembre 2021',
+        image: '/images/actualites/citation-11-21.jpg',
+        lightImage: true,
+        id: 'actualite-8',
+      },
+    })
+  ),
 })
 
 export const mutations = {

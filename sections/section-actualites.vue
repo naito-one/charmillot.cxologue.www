@@ -54,13 +54,14 @@
         class="absolute w-full h-full transparent-borders z-10 pointer-events-none"
       ></div>
       <div ref="scroller" class="slider w-full flex overflow-x-auto">
+        <actualite-citation-11-21></actualite-citation-11-21>
         <actualite-citation-09-21></actualite-citation-09-21>
         <actualite-citation-07-21></actualite-citation-07-21>
         <actualite-citation-03-21></actualite-citation-03-21>
         <actualite-citation-01-21></actualite-citation-01-21>
         <actualite-autre-prestation></actualite-autre-prestation>
-        <actualite-citation></actualite-citation>
-        <actualite-lancement-du-site-web></actualite-lancement-du-site-web>
+        <!--<actualite-citation></actualite-citation>-->
+        <!--<actualite-lancement-du-site-web></actualite-lancement-du-site-web>-->
       </div>
     </div>
   </div>
@@ -75,6 +76,7 @@ import ActualiteCitation0121 from '../actualites/actualite-citation-01-21'
 import ActualiteCitation0321 from '../actualites/actualite-citation-03-21'
 import ActualiteCitation0721 from '../actualites/actualite-citation-07-21'
 import ActualiteCitation0921 from '../actualites/actualite-citation-09-21'
+import ActualiteCitation1121 from '../actualites/actualite-citation-11-21'
 export default {
   name: 'SectionActualites',
   components: {
@@ -86,6 +88,7 @@ export default {
     ActualiteCitation0321,
     ActualiteCitation0721,
     ActualiteCitation0921,
+    ActualiteCitation1121,
   },
   data() {
     return {
@@ -183,7 +186,7 @@ export default {
       return this.$store.getters.sections.row2[1]
     },
     numActualites() {
-      return this.$store.getters.actualites.length
+      return this.$store.getters.actualites.size
     },
     singleActualite() {
       return this.numActualites <= 1

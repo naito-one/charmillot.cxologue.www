@@ -25,7 +25,7 @@ export default {
   components: { AppActualite },
   computed: {
     actualite() {
-      return this.$store.getters.actualites[2]
+      return this.$store.getters.actualites.get('autre-prestation')
     },
   },
 }

@@ -22,7 +22,7 @@ export default {
   components: { AppActualite },
   computed: {
     actualite() {
-      return this.$store.getters.actualites[5]
+      return this.$store.getters.actualites.get('citation-07-21')
     },
   },
 }

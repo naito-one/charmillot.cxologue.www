@@ -27,7 +27,7 @@ export default {
   components: { AppActualite },
   computed: {
     actualite() {
-      return this.$store.getters.actualites[1]
+      return this.$store.getters.actualites.get('citation')
     },
   },
 }
