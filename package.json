@@ -1,7 +1,7 @@
 {
-  "name": "meters-ch",
+  "name": "charmillot.cxologue.www",
   "version": "1.0.0",
-  "description": "Meters.ch Website",
+  "description": "Cxologue.ch Website",
   "author": "Tim Winkelmann",
   "private": true,
   "scripts": {
