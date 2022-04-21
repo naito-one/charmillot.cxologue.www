@@ -18,7 +18,7 @@
 <script>
 import AppActualite from '../components/app-actualite'
 export default {
-  name: 'ActualiteCitation0921',
+  name: 'ActualiteCitation1121',
   components: { AppActualite },
   computed: {
     actualite() {

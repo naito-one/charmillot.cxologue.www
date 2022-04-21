@@ -10,12 +10,16 @@
       <div>
         <ul class="list-disc pl-6">
           <li>
-            Diplôme d'études avancées (DAS) en santé sexuelle et reproductive,
-            volet éducation (2006-2008)
+            <abbr tabindex="0" title="Diplôme d'études avancées">DAS</abbr> en santé sexuelle
+            et reproductive, volet éducation (2006-2008)
           </li>
           <li>Formation passerelle volet conseil en santé sexuelle (2013)</li>
           <li>Formatrice en santé sexuelle (2015)</li>
-          <li>Sexologue 2 niveaux de formation en sexocorporel (2016-2020)</li>
+          <li>
+            Sexologue formée en sexocorporel. Formation à Paris par le
+            <abbr tabindex="0" title="Centre de Formation en Sexocorporel France">CFSF</abbr>
+            (2016 - 2023)
+          </li>
         </ul>
 
         <br />

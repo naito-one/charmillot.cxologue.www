@@ -24,7 +24,7 @@
 <script>
 import AppActualite from '../components/app-actualite'
 export default {
-  name: 'ActualiteCitation0121',
+  name: 'ActualiteCitation0222',
   components: { AppActualite },
   computed: {
     actualite() {
