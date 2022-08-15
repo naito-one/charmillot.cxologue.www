@@ -23,6 +23,7 @@
         <h3
           class="font-heading text-2xl text-c-violet-3 text-center mb-8"
           v-text="title"
+          v-if="title"
         ></h3>
         <slot></slot>
       </div>
@@ -35,7 +36,7 @@ export default {
   props: {
     title: {
       type: String,
-      required: true,
+      required: false,
     },
     date: {
       type: String,

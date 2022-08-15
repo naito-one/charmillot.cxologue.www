@@ -54,12 +54,13 @@
         class="absolute w-full h-full transparent-borders z-10 pointer-events-none"
       ></div>
       <div ref="scroller" class="slider w-full flex overflow-x-auto">
+        <actualite-temoignage-08-22></actualite-temoignage-08-22>
         <actualite-citation-04-22></actualite-citation-04-22>
         <actualite-citation-02-22></actualite-citation-02-22>
         <actualite-citation-11-21></actualite-citation-11-21>
         <actualite-citation-09-21></actualite-citation-09-21>
         <actualite-citation-07-21></actualite-citation-07-21>
-        <actualite-citation-03-21></actualite-citation-03-21>
+        <!--<actualite-citation-03-21></actualite-citation-03-21>-->
         <!--<actualite-citation-01-21></actualite-citation-01-21>-->
         <!--<actualite-autre-prestation></actualite-autre-prestation>-->
         <!--<actualite-citation></actualite-citation>-->
@@ -75,12 +76,13 @@ import AppSection from '../components/app-section'
 // import ActualiteCitation from '../actualites/actualite-citation'
 // import ActualiteAutrePrestation from '../actualites/actualite-autre-prestation'
 // import ActualiteCitation0121 from '../actualites/actualite-citation-01-21'
-import ActualiteCitation0321 from '../actualites/actualite-citation-03-21'
+// import ActualiteCitation0321 from '../actualites/actualite-citation-03-21'
 import ActualiteCitation0721 from '../actualites/actualite-citation-07-21'
 import ActualiteCitation0921 from '../actualites/actualite-citation-09-21'
 import ActualiteCitation1121 from '../actualites/actualite-citation-11-21'
 import ActualiteCitation0222 from '../actualites/actualite-citation-02-22'
 import ActualiteCitation0422 from '../actualites/actualite-citation-04-22'
+import ActualiteTemoignage0822 from '../actualites/actualite-temoignage-08-22'
 export default {
   name: 'SectionActualites',
   components: {
@@ -89,12 +91,13 @@ export default {
     // ActualiteCitation,
     // ActualiteAutrePrestation,
     // ActualiteCitation0121,
-    ActualiteCitation0321,
+    // ActualiteCitation0321,
     ActualiteCitation0721,
     ActualiteCitation0921,
     ActualiteCitation1121,
     ActualiteCitation0222,
     ActualiteCitation0422,
+    ActualiteTemoignage0822,
   },
   data() {
     return {
