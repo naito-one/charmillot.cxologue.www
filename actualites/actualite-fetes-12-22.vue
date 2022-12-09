@@ -8,21 +8,27 @@
   >
     <p class="flex flex-col mb-8">
       <span class="font-bold italic text-center">
-        L’approche en sexocorporel m’a permis de gérer ma libido envahissante et
-        d’ouvrir mon champ de vision sur de nouveaux domaines de la sexualité
+        À l’image de ces 5 boules, je vous souhaite 5 plaisirs pour 2023
       </span>
-      <span class="text-right mt-2">homme la vingtaine</span>
+          <ul class="list-disc mx-auto my-4">
+            <li>Bien-être</li>
+            <li>Félicité</li>
+            <li>Satisfaction</li>
+            <li>Bonheur</li>
+            <li>Sensualité</li>
+          </ul>
+      <span class="text-right">Catherine Charmillot</span>
     </p>
   </app-actualite>
 </template>
 <script>
 import AppActualite from '../components/app-actualite'
 export default {
-  name: 'ActualiteTeoignage0822',
+  name: 'ActualiteFetes1222',
   components: { AppActualite },
   computed: {
     actualite() {
-      return this.$store.getters.actualites.get('temoignage-08-22')
+      return this.$store.getters.actualites.get('fetes-12-22')
     },
   },
 }
