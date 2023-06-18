@@ -124,7 +124,6 @@ export const state = () => ({
         lightImage: true,
         id: 'actualite-8',
       },
-      */
       'citation-02-22': {
         title: 'Citation',
         date: '9 février 2022',
@@ -132,6 +131,7 @@ export const state = () => ({
         lightImage: false,
         id: 'actualite-9',
       },
+      */
       'citation-04-22': {
         title: 'Citation',
         date: '21 avril 2022',
@@ -162,6 +162,12 @@ export const state = () => ({
         image: '/images/actualites/temoignage.jpg',
         lightImage: false,
         id: 'actualite-14',
+      },
+      'citation-06-23': {
+        date: '18 juin 2023',
+        image: '/images/actualites/citation-06-23.jpg',
+        lightImage: false,
+        id: 'actualite-15',
       },
     })
   ),

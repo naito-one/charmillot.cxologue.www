@@ -1,16 +1,16 @@
 <template>
   <div class="slide w-full flex-shrink-0 flex justify-center">
     <section
-      class="relative bg-gray-100 text-gray-900 rounded-lg shadow-md mx-2 sm:mx-12 w-full"
+      class="relative bg-gray-100 text-gray-900 rounded-lg shadow-md mx-2 sm:mx-12 w-full overflow-hidden"
     >
       <div
-        class="tile-background h-76 rounded-t-lg"
+        class="tile-background h-76"
         :style="`background-image: url(${image})`"
       ></div>
       <div
         :class="`absolute top-0 w-full h-70 ${
           lightImage ? 'bg-gradient-corner-light' : 'bg-gradient-corner-dark'
-        } rounded-t-lg`"
+        }`"
       ></div>
       <span
         :class="`absolute top-0 w-full text-right font-bold p-8 ${
