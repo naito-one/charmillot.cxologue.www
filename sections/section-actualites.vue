@@ -54,10 +54,11 @@
         class="absolute w-full h-full transparent-borders z-10 pointer-events-none"
       ></div>
       <div ref="scroller" class="slider w-full flex overflow-x-auto">
+        <actualite-citation-09-23></actualite-citation-09-23>
         <actualite-citation-06-23></actualite-citation-06-23>
         <actualite-temoignage-03-23></actualite-temoignage-03-23>
         <actualite-temoignage-02-23></actualite-temoignage-02-23>
-        <actualite-fetes-12-22></actualite-fetes-12-22>
+        <!--<actualite-fetes-12-22></actualite-fetes-12-22>-->
         <actualite-temoignage-08-22></actualite-temoignage-08-22>
         <actualite-citation-04-22></actualite-citation-04-22>
         <!--<actualite-citation-02-22></actualite-citation-02-22>-->
@@ -87,10 +88,11 @@ import AppSection from '../components/app-section'
 // import ActualiteCitation0222 from '../actualites/actualite-citation-02-22'
 import ActualiteCitation0422 from '../actualites/actualite-citation-04-22'
 import ActualiteTemoignage0822 from '../actualites/actualite-temoignage-08-22'
-import ActualiteFetes1222 from '../actualites/actualite-fetes-12-22'
+// import ActualiteFetes1222 from '../actualites/actualite-fetes-12-22'
 import ActualiteTemoignage0223 from '../actualites/actualite-temoignage-02-23'
 import ActualiteTemoignage0323 from '../actualites/actualite-temoignage-03-23'
 import ActualiteCitation0623 from '../actualites/actualite-citation-06-23'
+import ActualiteCitation0923 from '../actualites/actualite-citation-09-23'
 export default {
   name: 'SectionActualites',
   components: {
@@ -106,10 +108,11 @@ export default {
     // ActualiteCitation0222,
     ActualiteCitation0422,
     ActualiteTemoignage0822,
-    ActualiteFetes1222,
+    // ActualiteFetes1222,
     ActualiteTemoignage0223,
     ActualiteTemoignage0323,
     ActualiteCitation0623,
+    ActualiteCitation0923,
   },
   data() {
     return {

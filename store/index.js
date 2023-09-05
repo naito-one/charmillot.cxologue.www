@@ -145,12 +145,14 @@ export const state = () => ({
         lightImage: false,
         id: 'actualite-11',
       },
+      /*
       'fetes-12-22': {
         date: '9 décembre 2022',
         image: '/images/actualites/fetes-12-22.jpg',
         lightImage: true,
         id: 'actualite-12',
       },
+      */
       'temoignage-02-23': {
         date: 'février 2023',
         image: '/images/actualites/temoignage.jpg',
@@ -168,6 +170,13 @@ export const state = () => ({
         image: '/images/actualites/citation-06-23.jpg',
         lightImage: false,
         id: 'actualite-15',
+      },
+      'citation-09-23': {
+        title: 'Citation',
+        date: '5 septembre 2023',
+        image: '/images/actualites/citation-09-23.jpg',
+        lightImage: false,
+        id: 'actualite-16',
       },
     })
   ),
