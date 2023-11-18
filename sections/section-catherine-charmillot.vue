@@ -10,15 +10,26 @@
       <div>
         <ul class="list-disc pl-6">
           <li>
-            <abbr tabindex="0" title="Diplôme d'études avancées">DAS</abbr> en santé sexuelle
-            et reproductive, volet éducation (2006-2008)
+            <abbr tabindex="0" title="Diplôme d'études avancées">DAS</abbr> en
+            santé sexuelle et reproductive, volet éducation (2006-2008)
           </li>
           <li>Formation passerelle volet conseil en santé sexuelle (2013)</li>
           <li>Formatrice en santé sexuelle (2015)</li>
           <li>
             Sexologue formée en sexocorporel. Formation à Paris par le
-            <abbr tabindex="0" title="Centre de Formation en Sexocorporel France">CFSF</abbr>
+            <abbr
+              tabindex="0"
+              title="Centre de Formation en Sexocorporel France"
+              >CFSF</abbr
+            >
             (2016 - 2023)
+            <a
+              href="/documents/CERTIFICAT DE FIN D'ETUDES-CFSF-PARIS GROUPE8_CatherineCHARMILLOT.pdf"
+              target="_blank"
+              class="inline-flex items-center ml-2"
+              ><i class="material-icons">open_in_new</i
+              ><span class="underline ml-1">Dîplome</span></a
+            >
           </li>
         </ul>
 
