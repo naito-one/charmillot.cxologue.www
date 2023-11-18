@@ -28,7 +28,7 @@
               target="_blank"
               class="inline-flex items-center ml-2"
               ><i class="material-icons">open_in_new</i
-              ><span class="underline ml-1">Dîplome</span></a
+              ><span class="underline ml-1">Diplôme</span></a
             >
           </li>
         </ul>
