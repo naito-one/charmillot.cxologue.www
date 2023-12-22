@@ -6,20 +6,18 @@
     :image="actualite.image"
     :light-image="actualite.lightImage"
   >
-    <p class="flex flex-col mb-8">
-      <span class="font-bold text-xl text-center">
+    <p class="flex flex-col mb-8 mt-4 text-center">
+      <span>
         Je vous souhaite<br />
         une magnifique fin d'année
       </span>
-      <span class="px-8 mt-4">
-        <span>Avec un passage en 2024 sous les meilleures auspices</span>
+        <span>Avec un passage en 2024 sous<br /> les meilleures auspices de</span>
         <ul class="list-none my-2">
-          <li>De santé</li>
-          <li>De sérénité</li>
-          <li>Et de sensualité</li>
+          <li>La santé</li>
+          <li>La sérénité</li>
+          <li>Et la sensualité</li>
         </ul>
-      </span>
-      <span class="text-right">Catherine Charmillot</span>
+      <span>Catherine Charmillot</span>
     </p>
   </app-actualite>
 </template>
