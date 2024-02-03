@@ -111,7 +111,7 @@
           >Consultations sur rendez-vous dans mon cabinet privé, installé dans
           un centre de thérapies, à Delémont,
           <span class="text-sm">Jura suisse</span></strong
-        ><br />
+        >.<br />
         Place de parc gratuite à disposition ou à 15 minutes de la gare.<br />
         Tarif préférentiel pour petit budget.
       </p>
