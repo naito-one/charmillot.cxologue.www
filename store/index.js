@@ -178,11 +178,19 @@ export const state = () => ({
         lightImage: false,
         id: 'actualite-16',
       },
+      /*
       'fetes-12-23': {
         date: '21 décembre 2023',
         image: '/images/actualites/fetes-12-23.jpg',
         lightImage: false,
         id: 'actualite-17',
+      },
+      */
+      'temoignage-02-24': {
+        date: '3 février 2024',
+        image: '/images/actualites/temoignage.jpg',
+        lightImage: false,
+        id: 'actualite-18',
       },
     })
   ),
