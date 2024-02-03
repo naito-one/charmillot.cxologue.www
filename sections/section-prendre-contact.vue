@@ -108,22 +108,23 @@
     <div class="mx-2 md:w-160 md:mx-auto">
       <p>
         <strong
-          >Consultation sur rendez-vous le matin ou le soir, à Delémont,
+          >Consultations sur rendez-vous dans mon cabinet privé, installé dans
+          un centre de thérapies, à Delémont,
           <span class="text-sm">Jura suisse</span></strong
         ><br />
-        Dans les locaux du centre de santé sexuelle-planning familial (en dehors
-        des heures d'ouverture)<br />
-        Tarif préférentiel pour petits budgets
+        Place de parc gratuite à disposition ou à 15 minutes de la gare.<br />
+        Tarif préférentiel pour petit budget.
       </p>
       <br />
       <p>
-        Centre de santé sexuelle - planning familial Jura<br />
-        Rue de la Molière 13<br />
+        Catherine Charmillot<br />
+        Sexologue<br />
+        Jolimont 30 (1er étage)<br />
         2800 Delémont
       </p>
 
       <a
-        href="https://goo.gl/maps/qkS9bGLjJZNLBCfB8"
+        href="https://maps.app.goo.gl/8edeuwmVmcPWpnkz9"
         rel="noreferrer"
         target="_blank"
         aria-label="Emplacement sur la carte"
