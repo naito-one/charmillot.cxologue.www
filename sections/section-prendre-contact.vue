@@ -112,7 +112,8 @@
           un centre de thérapies, à Delémont,
           <span class="text-sm">Jura suisse</span></strong
         >.<br />
-        Place de parc gratuite à disposition ou à 15 minutes de la gare.<br />
+        Place de parc à disposition.<br />
+        À 15 minutes à pied de la gare.<br />
         Tarif préférentiel pour petit budget.
       </p>
       <br />

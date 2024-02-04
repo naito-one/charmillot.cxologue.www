@@ -14,7 +14,7 @@
         J'ai appris à m'écouter, à me parler, à me libérer. J'ai appris que ça
         peut être ok. J'ai appris à dire oui à la vitalité, oui à ma sexualité.
       </span>
-      <span class="font-bold">Un grand merci.</span>
+      <span>Un grand merci.</span>
       <span class="text-right mt-2">- Charlotte, 24 ans</span>
     </p>
   </app-actualite>
