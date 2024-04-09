@@ -123,22 +123,39 @@
         Jolimont 30 (1er étage)<br />
         2800 Delémont
       </p>
-
-      <a
-        href="https://maps.app.goo.gl/8edeuwmVmcPWpnkz9"
-        rel="noreferrer"
-        target="_blank"
-        aria-label="Emplacement sur la carte"
-        class="bg-gray-400 map-image flex items-end justify-center rounded-lg shadow-md h-100 my-8"
-      >
-        <div
-          class="rounded-lg bg-c-violet-3 p-3 mb-8 shadow-lg text-gray-100 flex items-center justify-center max-w-full w-56 select-none"
-        >
-          <span class="material-icons">directions</span>
-          <span class="font-bold ml-4">Voir sur Google Maps</span>
-        </div>
-      </a>
     </div>
+
+    <div class="flex flex-wrap justify-center items-start gap-4 mt-8 mx-2">
+      <img
+        class="rounded-lg shadow-md md:h-100 w-auto"
+        src="/images/cabinet-01.jpg"
+        alt="Présentation du Cabinet 1"
+      />
+      <img
+        class="rounded-lg shadow-md md:h-100 w-auto"
+        src="/images/cabinet-02.jpg"
+        alt="Présentation du Cabinet 2"
+      />
+      <img
+        class="rounded-lg shadow-md md:h-100 w-auto"
+        src="/images/cabinet-03.jpg"
+        alt="Présentation du Cabinet 3"
+      />
+    </div>
+    <a
+      href="https://maps.app.goo.gl/8edeuwmVmcPWpnkz9"
+      rel="noreferrer"
+      target="_blank"
+      aria-label="Emplacement sur la carte"
+      class="bg-gray-400 map-image flex items-end justify-center rounded-lg shadow-md h-100 my-4 md:mt-8 mx-2 md:w-160 md:mx-auto"
+    >
+      <div
+        class="rounded-lg bg-c-violet-3 p-3 mb-8 shadow-lg text-gray-100 text-center flex items-center justify-center max-w-full w-56 select-none"
+      >
+        <span class="material-icons">directions</span>
+        <span class="font-bold ml-4">Voir sur Google Maps</span>
+      </div>
+    </a>
   </section>
 </template>
 <script>
