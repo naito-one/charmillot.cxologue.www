@@ -5,23 +5,22 @@
   "author": "Tim Winkelmann",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider NUXT_HOST=0.0.0.0 nuxt",
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider nuxt build",
-    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider NUXT_HOST=0.0.0.0 nuxt start",
-    "generate": "cross-env NODE_OPTIONS=--openssl-legacy-provider nuxt generate",
+    "dev": "NUXT_HOST=0.0.0.0 nuxt",
+    "build": "nuxt build",
+    "start": "NUXT_HOST=0.0.0.0 nuxt start",
+    "generate": "nuxt generate",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
-    "nuxt": "^2.15.8"
+    "nuxt": "^2.18.1"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3",
     "lodash": "^4.17.21",
-    "node-sass": "^6.0.0",
+    "node-sass": "^9.0.0",
     "nuxt-purgecss": "^1.0.0",
     "prettier": "2.8.8",
     "push-dir": "^0.4.1",
-    "sass-loader": "^10.1.1",
-    "tailwindcss": "^1.8.13"
+    "sass-loader": "^10.4.1",
+    "tailwindcss": "^1.9.6"
   }
 }
