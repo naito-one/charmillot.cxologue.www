@@ -30,9 +30,9 @@
             :key="i"
             :href="`#actualite-${i}`"
             @click="$event.preventDefault() || goTo(i)"
-            :class="`material-icons py-4 px-2-5 sm:px-4 ${
+            :class="`material-icons py-4 sm:px-4 ${
               current === i ? 'text-gray-900' : 'text-gray-500'
-            } ${shouldBeFullSize(i) ? '' : 'text-2xs px-1 sm:text-base'}`"
+            } ${shouldBeFullSize(i) ? 'px-2-5' : 'text-2xs px-1 sm:text-base'}`"
             >lens</a
           >
         </div>
