@@ -34,8 +34,8 @@
     <br />
     <p>
       Les protocoles de traitement offrent de nouvelles ressources et
-      améliorations afin d'aider les hommes et les femmes à mieux vivre leur
-      sexualité et leur vie amoureuse.<br />
+      améliorations afin d'aider les êtres humains à mieux vivre leur sexualité
+      et leur vie amoureuse.<br />
       Le sexocorporel reconnaît la notion de santé sexuelle qui ancre ses bases
       autour de cinq axes de la sexualité humaine :
     </p>

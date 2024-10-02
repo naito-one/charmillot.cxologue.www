@@ -35,11 +35,10 @@
 
         <br />
         <p>
-          Depuis 2008, j'anime avec beaucoup d'enthousiasme des cours
-          d'éducation sexuelle dans les écoles pour la promotion et la
-          prévention de la santé sexuelle.<br />
-          Depuis 2015, je travaille comme conseillère en santé sexuelle au
-          centre de santé sexuelle-planning familial jurassien pour informer,
+          Depuis 2008, j'anime des cours d'éducation sexuelle dans les écoles
+          pour la promotion et la prévention de la santé sexuelle.<br />
+          Depuis 2015, je travaille comme spécialiste en santé sexuelle à
+          SexualitéS Santé Jura (centre de santé sexuelle) pour informer,
           orienter et soutenir les personnes qui consultent.
         </p>
         <br />
