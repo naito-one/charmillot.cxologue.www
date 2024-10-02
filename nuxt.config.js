@@ -1,5 +1,3 @@
-const features = ['es2015', 'es2016', 'IntersectionObserver'].join('%2C')
-
 export default {
   ssr: true,
   /*
@@ -53,13 +51,6 @@ export default {
         as: 'font',
         href: '/fonts/Mulish/Mulish-SemiBold.woff2',
         crossorigin: true,
-      },
-    ],
-
-    script: [
-      {
-        src: `https://polyfill.io/v3/polyfill.min.js?features=${features}`,
-        body: true,
       },
     ],
   },
