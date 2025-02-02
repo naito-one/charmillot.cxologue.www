@@ -52,13 +52,14 @@
         class="absolute w-full h-full transparent-borders z-10 pointer-events-none"
       ></div>
       <div ref="scroller" class="slider w-full flex overflow-x-auto">
+        <actualite-citation-01-25></actualite-citation-01-25>
         <actualite-citation-10-24></actualite-citation-10-24>
         <actualite-citation-04-24></actualite-citation-04-24>
         <actualite-temoignage-02-24></actualite-temoignage-02-24>
         <!--<actualite-fetes-12-23></actualite-fetes-12-23>-->
         <actualite-citation-09-23></actualite-citation-09-23>
         <actualite-citation-06-23></actualite-citation-06-23>
-        <actualite-temoignage-03-23></actualite-temoignage-03-23>
+        <!--<actualite-temoignage-03-23></actualite-temoignage-03-23>-->
         <!--<actualite-temoignage-02-23></actualite-temoignage-02-23>-->
         <!--<actualite-fetes-12-22></actualite-fetes-12-22>-->
         <!--<actualite-temoignage-08-22></actualite-temoignage-08-22>-->
@@ -99,6 +100,7 @@ import ActualiteCitation0923 from '../actualites/actualite-citation-09-23'
 import ActualiteTemoignage0224 from '../actualites/actualite-temoignage-02-24'
 import ActualiteCitation0424 from '../actualites/actualite-citation-04-24'
 import ActualiteCitation1024 from '../actualites/actualite-citation-10-24'
+import ActualiteCitation0125 from '../actualites/actualite-citation-01-25'
 export default {
   name: 'SectionActualites',
   components: {
@@ -123,6 +125,7 @@ export default {
     ActualiteTemoignage0224,
     ActualiteCitation0424,
     ActualiteCitation1024,
+    ActualiteCitation0125,
   },
   data() {
     return {
