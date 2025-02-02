@@ -22,5 +22,6 @@
     "push-dir": "^0.4.1",
     "sass-loader": "^10.4.1",
     "tailwindcss": "^1.9.6"
-  }
+  },
+  "packageManager": "yarn@2.4.2+sha512.f77b4e43648618c524699410989f85de97091e86ab24c6fafb427686acff23c4c914a9f1e7351268aea3d4c72ece6032ecebc55fa724083c7988ef344f987640"
 }
