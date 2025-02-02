@@ -52,6 +52,7 @@
         class="absolute w-full h-full transparent-borders z-10 pointer-events-none"
       ></div>
       <div ref="scroller" class="slider w-full flex overflow-x-auto">
+        <!--<actualite-citation-03-25></actualite-citation-03-25>-->
         <actualite-citation-01-25></actualite-citation-01-25>
         <actualite-citation-10-24></actualite-citation-10-24>
         <actualite-citation-04-24></actualite-citation-04-24>
@@ -101,6 +102,7 @@ import ActualiteTemoignage0224 from '../actualites/actualite-temoignage-02-24'
 import ActualiteCitation0424 from '../actualites/actualite-citation-04-24'
 import ActualiteCitation1024 from '../actualites/actualite-citation-10-24'
 import ActualiteCitation0125 from '../actualites/actualite-citation-01-25'
+// import ActualiteCitation0325 from '../actualites/actualite-citation-03-25'
 export default {
   name: 'SectionActualites',
   components: {
@@ -126,6 +128,7 @@ export default {
     ActualiteCitation0424,
     ActualiteCitation1024,
     ActualiteCitation0125,
+    // ActualiteCitation0325,
   },
   data() {
     return {

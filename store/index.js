@@ -206,9 +206,17 @@ export const state = () => ({
       'citation-01-25': {
         date: 'janvier 2025',
         image: '/images/actualites/citation-01-25.jpg',
-        lightImage: true,
+        lightImage: false,
         id: 'actualite-21',
       },
+      /*
+      'citation-03-25': {
+        date: '1er mars 2025',
+        image: '/images/actualites/citation-03-25.jpg',
+        lightImage: true,
+        id: 'actualite-22',
+      },
+      */
     })
   ),
 })

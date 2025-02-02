@@ -8,8 +8,7 @@
   >
     <div class="flex justify-center italic">
       <p class="leading-9 text-lg mt-4 text-center">
-        Tout comme un chemin de neige se dévoile pas à pas,<br /> <span class="text-blue-500">la sexualité
-        positive</span> encourage une découverte progressive de soi et de l'autre.
+        L'<span class="text-orange-600">orange</span> et la <span class="text-orange-600">vulve féminine</span> s'entrelacent dans les imaginaires symboliques par leur <span class="text-orange-600">sensualité naturelle</span> et leur <span class="text-orange-600">rôle dans la vitalité</span>.
       </p>
     </div>
   </app-actualite>
@@ -17,11 +16,11 @@
 <script>
 import AppActualite from '../components/app-actualite'
 export default {
-  name: 'ActualiteCitation0125',
+  name: 'ActualiteCitation0325',
   components: { AppActualite },
   computed: {
     actualite() {
-      return this.$store.getters.actualites.get('citation-01-25')
+      return this.$store.getters.actualites.get('citation-03-25')
     },
   },
 }
