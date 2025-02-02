@@ -2867,6 +2867,44 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vue/reactivity@npm:3.5.13":
+  version: 3.5.13
+  resolution: "@vue/reactivity@npm:3.5.13"
+  dependencies:
+    "@vue/shared": 3.5.13
+  checksum: db0697e385dfd3eb9afd4c0adc7d7704368830a26f8f7d023416a63c03b9fbb62a6ddd617bff57482213071e80c28291f7fc1e0793a1ebf2eada39e057267486
+  languageName: node
+  linkType: hard
+
+"@vue/runtime-core@npm:3.5.13":
+  version: 3.5.13
+  resolution: "@vue/runtime-core@npm:3.5.13"
+  dependencies:
+    "@vue/reactivity": 3.5.13
+    "@vue/shared": 3.5.13
+  checksum: e9fb52b89a37f5848e8efa0b0ecc5a75de856830cb7fb24681a79454a0b45320c2bb8b3efb35ba9a688a8d7746b5fde6b81a78dc7c514958d98a9e2dcca8d771
+  languageName: node
+  linkType: hard
+
+"@vue/runtime-dom@npm:latest":
+  version: 3.5.13
+  resolution: "@vue/runtime-dom@npm:3.5.13"
+  dependencies:
+    "@vue/reactivity": 3.5.13
+    "@vue/runtime-core": 3.5.13
+    "@vue/shared": 3.5.13
+    csstype: ^3.1.3
+  checksum: 38b6005d8e5e23570372fd38cea1f8bc1cc92863bed63647d5c0c8a986c5e09256d4dc57264c5e05d91b54069cf396f27c1f6f03ef639bfcc13673647fa80205
+  languageName: node
+  linkType: hard
+
+"@vue/shared@npm:3.5.13":
+  version: 3.5.13
+  resolution: "@vue/shared@npm:3.5.13"
+  checksum: 257b2cb270d99318771c7ded3f19cfbb0e119e43c41b7f29a625043b5dcc14690d420702b4f3c56ce43fbce88b159c712e5598e635fc68a99af66dcc823a7ba6
+  languageName: node
+  linkType: hard
+
 "@webassemblyjs/ast@npm:1.9.0":
   version: 1.9.0
   resolution: "@webassemblyjs/ast@npm:1.9.0"
@@ -4144,6 +4182,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "charmillot.cxologue.www@workspace:."
   dependencies:
+    "@vue/runtime-dom": latest
     lodash: ^4.17.21
     node-sass: ^9.0.0
     nuxt: ^2.18.1
@@ -5100,7 +5139,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csstype@npm:^3.1.0":
+"csstype@npm:^3.1.0, csstype@npm:^3.1.3":
   version: 3.1.3
   resolution: "csstype@npm:3.1.3"
   checksum: f58ab59b79d78381b40f503eb6e99164fe3e245b972e2d4ca4c80cac6a73c691a770eeadfee0ffc73a1def1d2544db15e6ad364a770059eb4bbaee645e1d3098
