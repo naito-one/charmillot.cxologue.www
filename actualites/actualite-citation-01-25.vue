@@ -7,9 +7,9 @@
     :light-image="actualite.lightImage"
   >
     <div class="flex justify-center italic">
-      <p class="leading-9 text-lg mt-4 text-center">
-        Tout comme un chemin de neige se dévoile pas à pas,<br /> <span class="text-blue-500">la sexualité
-        positive</span> encourage une découverte progressive de soi et de l'autre.
+      <p class="leading-9 text-lg mt-4 text-center text-blue-500">
+        Tout comme un chemin de neige se dévoile pas à pas,<br />la sexualité
+        positive encourage une découverte progressive de soi et de l'autre.
       </p>
     </div>
   </app-actualite>

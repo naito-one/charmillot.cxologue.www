@@ -7,8 +7,8 @@
     :light-image="actualite.lightImage"
   >
     <div class="flex justify-center italic">
-      <p class="leading-9 text-lg mt-4 text-center">
-        L'<span class="text-orange-600">orange</span> et la <span class="text-orange-600">vulve féminine</span> s'entrelacent dans les imaginaires symboliques par leur <span class="text-orange-600">sensualité naturelle</span> et leur <span class="text-orange-600">rôle dans la vitalité</span>.
+      <p class="leading-9 text-lg mt-4 text-center text-gray-800">
+        L'orange et la vulve féminine s'entrelacent dans les imaginaires symboliques par leur sensualité naturelle et leur rôle dans la vitalité.
       </p>
     </div>
   </app-actualite>
