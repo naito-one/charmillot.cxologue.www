@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full mb-16 lg:mb-8">
+  <div class="mb-16 w-full lg:mb-8">
     <app-section
       class="mb-2 lg:mb-0"
       :id="section.id"
@@ -11,13 +11,13 @@
       :padding-bottom="false"
     >
       <div
-        class="w-full sm:w-120 mx-auto flex justify-between items-center select-none"
+        class="flex justify-between items-center mx-auto w-full select-none sm:w-120"
       >
         <button
           aria-label="Actualité précédente"
           title="Actualité précédente"
           :disabled="singleActualite"
-          class="material-icons text-6xl disabled:text-gray-500"
+          class="text-6xl material-icons disabled:text-gray-500"
           @click="previous"
         >
           arrow_left
@@ -40,26 +40,26 @@
           aria-label="Actualité suivante"
           title="Actualité suivante"
           :disabled="singleActualite"
-          class="material-icons text-6xl disabled:text-gray-500"
+          class="text-6xl material-icons disabled:text-gray-500"
           @click="next"
         >
           arrow_right
         </button>
       </div>
     </app-section>
-    <div class="relative sm:w-120 mx-auto">
+    <div class="relative mx-auto sm:w-120">
       <div
-        class="absolute w-full h-full transparent-borders z-10 pointer-events-none"
+        class="absolute z-10 w-full h-full pointer-events-none transparent-borders"
       ></div>
-      <div ref="scroller" class="slider w-full flex overflow-x-auto">
-        <!--<actualite-citation-03-25></actualite-citation-03-25>-->
+      <div ref="scroller" class="flex overflow-x-auto w-full slider">
+        <actualite-citation-03-25></actualite-citation-03-25>
         <actualite-citation-01-25></actualite-citation-01-25>
         <actualite-citation-10-24></actualite-citation-10-24>
         <actualite-citation-04-24></actualite-citation-04-24>
         <actualite-temoignage-02-24></actualite-temoignage-02-24>
         <!--<actualite-fetes-12-23></actualite-fetes-12-23>-->
         <actualite-citation-09-23></actualite-citation-09-23>
-        <actualite-citation-06-23></actualite-citation-06-23>
+        <!--<actualite-citation-06-23></actualite-citation-06-23>-->
         <!--<actualite-temoignage-03-23></actualite-temoignage-03-23>-->
         <!--<actualite-temoignage-02-23></actualite-temoignage-02-23>-->
         <!--<actualite-fetes-12-22></actualite-fetes-12-22>-->
@@ -94,7 +94,7 @@ import AppSection from '../components/app-section'
 // import ActualiteTemoignage0822 from '../actualites/actualite-temoignage-08-22'
 // import ActualiteFetes1222 from '../actualites/actualite-fetes-12-22'
 // import ActualiteTemoignage0223 from '../actualites/actualite-temoignage-02-23'
-import ActualiteTemoignage0323 from '../actualites/actualite-temoignage-03-23'
+// import ActualiteTemoignage0323 from '../actualites/actualite-temoignage-03-23'
 import ActualiteCitation0623 from '../actualites/actualite-citation-06-23'
 import ActualiteCitation0923 from '../actualites/actualite-citation-09-23'
 // import ActualiteFetes1223 from '../actualites/actualite-fetes-12-23'
@@ -102,7 +102,7 @@ import ActualiteTemoignage0224 from '../actualites/actualite-temoignage-02-24'
 import ActualiteCitation0424 from '../actualites/actualite-citation-04-24'
 import ActualiteCitation1024 from '../actualites/actualite-citation-10-24'
 import ActualiteCitation0125 from '../actualites/actualite-citation-01-25'
-// import ActualiteCitation0325 from '../actualites/actualite-citation-03-25'
+import ActualiteCitation0325 from '../actualites/actualite-citation-03-25'
 export default {
   name: 'SectionActualites',
   components: {
@@ -120,7 +120,7 @@ export default {
     // ActualiteTemoignage0822,
     // ActualiteFetes1222,
     // ActualiteTemoignage0223,
-    ActualiteTemoignage0323,
+    // ActualiteTemoignage0323,
     ActualiteCitation0623,
     ActualiteCitation0923,
     // ActualiteFetes1223,
@@ -128,7 +128,7 @@ export default {
     ActualiteCitation0424,
     ActualiteCitation1024,
     ActualiteCitation0125,
-    // ActualiteCitation0325,
+    ActualiteCitation0325,
   },
   data() {
     return {
