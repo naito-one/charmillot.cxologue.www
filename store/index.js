@@ -168,7 +168,6 @@ export const state = () => ({
         lightImage: false,
         id: 'actualite-15',
       },
-      */
       'citation-09-23': {
         title: 'Citation',
         date: '5 septembre 2023',
@@ -176,7 +175,6 @@ export const state = () => ({
         lightImage: false,
         id: 'actualite-16',
       },
-      /*
       'fetes-12-23': {
         date: '21 décembre 2023',
         image: '/images/actualites/fetes-12-23.jpg',
@@ -215,6 +213,19 @@ export const state = () => ({
         lightImage: true,
         id: 'actualite-22',
       },
+      'citation-07-25': {
+        date: 'juillet 2025',
+        image: '/images/actualites/citation-07-25.jpg',
+        lightImage: true,
+        id: 'actualite-23',
+      },/*
+      'citation-09-25': {
+        date: 'septembre 2025',
+        image: '/images/actualites/citation-09-25.jpg',
+        lightImage: false,
+        id: 'actualite-24',
+      },
+      */
     })
   ),
 })

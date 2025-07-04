@@ -52,13 +52,15 @@
         class="absolute z-10 w-full h-full pointer-events-none transparent-borders"
       ></div>
       <div ref="scroller" class="flex overflow-x-auto w-full slider">
+        <!--<actualite-citation-09-25></actualite-citation-09-25>-->
+        <actualite-citation-07-25></actualite-citation-07-25>
         <actualite-citation-03-25></actualite-citation-03-25>
         <actualite-citation-01-25></actualite-citation-01-25>
         <actualite-citation-10-24></actualite-citation-10-24>
         <actualite-citation-04-24></actualite-citation-04-24>
         <actualite-temoignage-02-24></actualite-temoignage-02-24>
         <!--<actualite-fetes-12-23></actualite-fetes-12-23>-->
-        <actualite-citation-09-23></actualite-citation-09-23>
+        <!--<actualite-citation-09-23></actualite-citation-09-23>-->
         <!--<actualite-citation-06-23></actualite-citation-06-23>-->
         <!--<actualite-temoignage-03-23></actualite-temoignage-03-23>-->
         <!--<actualite-temoignage-02-23></actualite-temoignage-02-23>-->
@@ -95,14 +97,16 @@ import AppSection from '../components/app-section'
 // import ActualiteFetes1222 from '../actualites/actualite-fetes-12-22'
 // import ActualiteTemoignage0223 from '../actualites/actualite-temoignage-02-23'
 // import ActualiteTemoignage0323 from '../actualites/actualite-temoignage-03-23'
-import ActualiteCitation0623 from '../actualites/actualite-citation-06-23'
-import ActualiteCitation0923 from '../actualites/actualite-citation-09-23'
+// import ActualiteCitation0623 from '../actualites/actualite-citation-06-23'
+// import ActualiteCitation0923 from '../actualites/actualite-citation-09-23'
 // import ActualiteFetes1223 from '../actualites/actualite-fetes-12-23'
 import ActualiteTemoignage0224 from '../actualites/actualite-temoignage-02-24'
 import ActualiteCitation0424 from '../actualites/actualite-citation-04-24'
 import ActualiteCitation1024 from '../actualites/actualite-citation-10-24'
 import ActualiteCitation0125 from '../actualites/actualite-citation-01-25'
 import ActualiteCitation0325 from '../actualites/actualite-citation-03-25'
+import ActualiteCitation0725 from '../actualites/actualite-citation-07-25'
+// import ActualiteCitation0925 from '../actualites/actualite-citation-09-25'
 export default {
   name: 'SectionActualites',
   components: {
@@ -121,14 +125,16 @@ export default {
     // ActualiteFetes1222,
     // ActualiteTemoignage0223,
     // ActualiteTemoignage0323,
-    ActualiteCitation0623,
-    ActualiteCitation0923,
+    // ActualiteCitation0623,
+    // ActualiteCitation0923,
     // ActualiteFetes1223,
     ActualiteTemoignage0224,
     ActualiteCitation0424,
     ActualiteCitation1024,
     ActualiteCitation0125,
     ActualiteCitation0325,
+    ActualiteCitation0725,
+    // ActualiteCitation0925,
   },
   data() {
     return {
