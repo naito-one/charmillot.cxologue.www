@@ -11,7 +11,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "push-dir": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
