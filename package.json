@@ -1,28 +1,27 @@
 {
   "name": "charmillot.cxologue.www",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Cxologue.ch Website",
   "author": "Tim Winkelmann",
+  "type": "module",
   "private": true,
   "scripts": {
-    "dev": "NUXT_HOST=0.0.0.0 nuxt",
     "build": "nuxt build",
-    "start": "NUXT_HOST=0.0.0.0 nuxt start",
+    "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
-    "nuxt": "^2.18.1"
+    "@tailwindcss/vite": "^4.1.12",
+    "nuxt": "^4.0.3",
+    "tailwindcss": "^4.1.12",
+    "vue": "^3.5.20",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@vue/runtime-dom": "latest",
-    "lodash": "^4.17.21",
-    "node-sass": "^9.0.0",
-    "nuxt-purgecss": "^1.0.0",
-    "prettier": "2.8.8",
     "push-dir": "^0.4.1",
-    "sass-loader": "^10.4.1",
-    "tailwindcss": "^1.9.6"
-  },
-  "packageManager": "yarn@2.4.2+sha512.f77b4e43648618c524699410989f85de97091e86ab24c6fafb427686acff23c4c914a9f1e7351268aea3d4c72ece6032ecebc55fa724083c7988ef344f987640"
+    "sass": "^1.91.0"
+  }
 }

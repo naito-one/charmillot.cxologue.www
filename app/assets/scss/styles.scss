@@ -1,0 +1,58 @@
+/* IE11 fix: https://github.com/philipwalton/flexbugs#flexbug-2 */
+
+.flex {
+  > p,
+  > h2,
+  > h3,
+  > span,
+  > i {
+    max-width: 100%;
+  }
+}
+
+.tile-background {
+  background-position: center center;
+  background-size: cover;
+}
+// TODO: check still the case
+
+// put backgroud image on body so that firefox mobile doesn't trim it
+// with it's nav bar
+// also it can be fixed on Safari mobile and that's nice
+
+@supports (-webkit-touch-callout: none) {
+  .bg-fixed {
+    background-attachment: local !important;
+  }
+}
+
+// Making the abbr element work for touchscreen, keyboard, and mouse
+// https://bitsofco.de/making-abbr-work-for-touchscreen-keyboard-mouse/
+// https://www.geeksforgeeks.org/how-to-detect-touch-screen-device-using-css/
+@media (pointer: coarse) {
+  abbr[title] {
+    /* ensure consistent styling across browsers */
+    text-decoration: underline dotted;
+  }
+
+  abbr[title]:hover::after,
+  abbr[title]:focus::after {
+    content: attr(title);
+
+    /* position tooltip like the native one */
+    position: absolute;
+    left: auto;
+    right: auto;
+    width: auto;
+    margin-top: 20px;
+    margin-left: -10px;
+
+    /* style tooltip */
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.4);
+    padding: 3px 5px;
+  }
+}
