@@ -52,13 +52,13 @@
         class="absolute z-10 w-full h-full pointer-events-none transparent-borders"
       ></div>
       <div ref="scroller" class="flex overflow-x-auto w-full slider">
-        <!--<actualite-24-citation-09-25 />-->
+        <actualite-24-citation-09-25 />
         <actualite-23-citation-07-25 />
         <actualite-22-citation-03-25 />
         <actualite-21-citation-01-25 />
         <actualite-20-citation-10-24 />
         <actualite-19-citation-04-24 />
-        <actualite-18-temoignage-02-24 />
+        <!--<actualite-18-temoignage-02-24 />-->
         <!--<actualite-17-fetes-12-23 />-->
         <!--<actualite-16-citation-09-23 />-->
         <!--<actualite-15-citation-06-23 />-->
