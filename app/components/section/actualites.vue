@@ -52,6 +52,7 @@
         class="absolute z-10 w-full h-full pointer-events-none transparent-borders"
       ></div>
       <div ref="scroller" class="flex overflow-x-auto w-full slider">
+        <!--<actualite-26-message-03-26 />-->
         <actualite-25-message-01-26 />
         <actualite-24-citation-09-25 />
         <actualite-23-citation-07-25 />
